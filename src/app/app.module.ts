@@ -14,7 +14,7 @@ import { AppComponent } from './app.component';
     HeaderComponent,
     FooterComponent,
     NavigationComponent,
-    mainComponent
+    MainComponent
   ],
   imports: [
     BrowserModule
