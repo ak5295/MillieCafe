@@ -1,0 +1,36 @@
+nav{
+  max-width: 960px;
+  height: 40px;
+  background-color: lightsalmon;
+  text-shadow: 1px 1px 1px cornflowerblue;
+  text-transform: uppercase;
+}
+
+nav #navlist{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav #navlist li{
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 8px;
+
+}
+
+nav a {
+  text-decoration: none;
+}
+
+#navlist a:link{
+  color:#fff;
+
+}
+
+#navlist a:visited{
+  color:rgb(255, 255, 255);
+
+}

@@ -1,3 +1,4 @@
+import { AppRoutingModule, routingComponents} from './app-routing.module';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
@@ -14,10 +15,12 @@ import { AppComponent } from './app.component';
     HeaderComponent,
     FooterComponent,
     NavigationComponent,
-    MainComponent
+    MainComponent,
+    routingComponents
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

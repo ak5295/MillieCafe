@@ -1,0 +1,14 @@
+footer {
+  padding-top: 1px;
+  background: linear-gradient(0deg, cornflowerblue, beige);
+  max-width: 960px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  background-color: cornflowerblue;
+  height: 50px;
+  color: #FF5C00;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 3px 3px 25px beige, 2px 2px 1px lightcyan, 1px 1px 3px #fa9458;
+  clear: both;
+}
